@@ -1,0 +1,79 @@
+:root {
+    --lavender: #e0d7f1;
+    --dark-purple: #5e35b1;
+    --nude: #fdfaf7;
+    --text: #4a4a4a;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: var(--nude);
+    color: var(--text);
+    margin: 0;
+    line-height: 1.6;
+}
+
+.hero {
+    background-color: var(--lavender);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+h1 {
+    color: var(--dark-purple);
+    font-size: 3rem;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: var(--dark-purple);
+    border-left: 4px solid var(--lavender);
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+.stats-grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.stat-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.stat-card .number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--dark-purple);
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--dark-purple);
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 0.9rem;
+    color: #999;
+}
